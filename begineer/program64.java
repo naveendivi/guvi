@@ -11,7 +11,7 @@ class Ideone
 		int n=sc.nextInt();
 		int m=sc.nextInt();
 	int	c=m+n;
-		if((c%2)!=0)
+		if((c%2)==0)
 		{
 			System.out.print("even");
 		}
