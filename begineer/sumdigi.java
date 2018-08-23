@@ -13,6 +13,7 @@ class Ideone
 		for(int i=1;i<=n;i++)
 		{
 			 sum=sum*i;
+			sum++;
 		}
 		System.out.print(sum);
 	}
