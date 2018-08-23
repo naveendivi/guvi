@@ -7,12 +7,12 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int sum=1;
+		int sum=0;
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
-		for(int i=1;i<=n;i++)
+		for(int i=0;i<n;i++)
 		{
-			 sum=sum*i;
+			sum=sum+i;
 			sum++;
 		}
 		System.out.print(sum);
