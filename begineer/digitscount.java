@@ -15,10 +15,8 @@ class Ideone
 			while(n!=0)
 			{
 				n=n/10;
-				++count;
+				count++;
 			}
-				System.out.print(count);
-		}
-	
-		}
+		}		System.out.print(count);
 	}
+}
