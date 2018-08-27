@@ -7,7 +7,9 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		if(System.out.append("HELLO JAVA") == null)
+		Scanner sc=new Scanner(System.in);
+		String n=sc.nextLine();
+		if(System.out.append(n) == null)
 		{
 		}	
 		
