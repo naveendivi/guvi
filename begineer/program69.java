@@ -13,11 +13,11 @@ class Ideone
 		int a=m+n;
 		if((a%2)==0)
 		{
-			System.out.print("yes");
+			System.out.print("even");
 		}
 		else
 		{
-			System.out.print("no");
+			System.out.print("odd");
 		}
 	}
 
