@@ -15,7 +15,7 @@ class Ideone
         if(s.length() == mySet.size()){
             System.out.print( "Yes");
         }else{
-            System.out.print( "NO");
+            System.out.print( "No");
         }
 	}
 }
